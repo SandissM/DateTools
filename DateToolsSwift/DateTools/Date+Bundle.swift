@@ -10,7 +10,7 @@ import Foundation
 
 public extension Bundle {
   class func dateToolsBundle() -> Bundle {
-      Bundle.module
+      Bundle.main
   }
 }
 

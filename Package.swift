@@ -17,10 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "DateToolsSwift",
-            path: "DateToolsSwift/DateTools",
-            resources: [
-                .process("DateTools.bundle")
-            ]
+            path: "DateToolsSwift/DateTools"
         ),
     ]
 )
